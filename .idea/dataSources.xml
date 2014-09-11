@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3568678214">
+  <component name="DataSourceManagerImpl" format="xml" hash="3130306824">
     <data-source source="LOCAL" name="Rails flix: development" uuid="71097a4c-7aeb-4612-949e-b4e22831796b">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
@@ -9,8 +9,20 @@
     </data-source>
     <data-source source="LOCAL" name="Rails happy_clients: development" uuid="79d772b0-aed2-46c8-b611-c091ae58e218">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/happy-clients_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails happy_clients: test" uuid="27807359-9508-44bf-9aa5-50e38e633829">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/happy-clients_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails happy_clients: production" uuid="6c71da73-f8b5-4b73-8f3d-412339ec2309">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/happy-clients_production</jdbc-url>
       <libraries />
     </data-source>
   </component>

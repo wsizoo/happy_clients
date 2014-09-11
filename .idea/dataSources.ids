@@ -3,4 +3,13 @@
   <data-source source="LOCAL" name="Rails flix: development" uuid="71097a4c-7aeb-4612-949e-b4e22831796b">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails happy_clients: development" uuid="79d772b0-aed2-46c8-b611-c091ae58e218">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails happy_clients: test" uuid="27807359-9508-44bf-9aa5-50e38e633829">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails happy_clients: production" uuid="6c71da73-f8b5-4b73-8f3d-412339ec2309">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
