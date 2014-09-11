@@ -1,0 +1,34 @@
+<h1>Happy Story</h1>
+<%= render 'header' %>
+<article>
+  <header>
+    <h2><%= @story.company_name %></h2>
+  </header>
+  <h3>Description</h3>
+  <p>
+    <%= @story.description %>
+  </p>
+  <h3>Rep Name</h3>
+  <p>
+    <%= @story.rep_name %>
+  </p>
+  <h3>VAS Object</h3>
+  <p>
+    <%= @story.vas_object %>
+  </p>
+  <h3>Case Link</h3>
+  <p>
+    <%= format_case_link(@story) %>
+  </p>
+</article>
+
+<br>
+
+  <nav>
+    <%= link_to "Back to All Stories", stories_path, :class => 'button' %>
+    <%#= link_to "Edit", edit_story_path(@story) %>
+    <%#= link_to "Delete", story_path(@story), method: :delete, data: {confirm: 'Are you sure you want to delete ' + @story.company_name + ' | ' + @story.vas_object + '?'}%>
+  </nav>
+
+
+<%= render 'footer' %>

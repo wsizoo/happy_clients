@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rep_name: MyString
+  comapny_name: MyString
+  vas_object: MyString
+  case_link: 9.99
+  description: MyString
+
+two:
+  rep_name: MyString
+  comapny_name: MyString
+  vas_object: MyString
+  case_link: 9.99
+  description: MyString
