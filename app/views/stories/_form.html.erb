@@ -21,11 +21,20 @@
     </p>
     <p>
       <%= f.label :case_link %><br/>
-      <%= f.text_area :case_link %>
+      <% if @story.case_link == nil %>
+          <%= f.text_area :case_link, :value => "http://" %>
+      <% else %>
+          <%= f.text_area :case_link %>
+      <% end %>
     </p>
     <p>
       <%= f.label :website %><br/>
-      <%= f.text_area :website %>
+      <% if @story.case_link == nil %>
+          <%= f.text_area :website, :value => "http://" %>
+      <% else %>
+          <%= f.text_area :website %>
+      <% end %>
+
     </p>
     <p>
       <%= f.submit %> |
