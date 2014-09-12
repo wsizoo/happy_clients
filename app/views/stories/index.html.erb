@@ -12,7 +12,7 @@
     <table>
     <tr>
       <th>Story:</th>
-      <td> <%= truncate(story.description, length: 100, separator: ' ') %></td>
+      <td> <%= truncate(story.description, length: 40, separator: ' ') %> <%= link_to 'Show More',story %></td>
     </tr>
       <tr>
         <th>Rep Name:</th>
