@@ -9,8 +9,8 @@
     </data-source>
     <data-source source="LOCAL" name="Rails happy_clients: development" uuid="79d772b0-aed2-46c8-b611-c091ae58e218">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/happy-clients_development</jdbc-url>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/happy-clients_development</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails happy_clients: test" uuid="27807359-9508-44bf-9aa5-50e38e633829">
@@ -21,8 +21,8 @@
     </data-source>
     <data-source source="LOCAL" name="Rails happy_clients: production" uuid="6c71da73-f8b5-4b73-8f3d-412339ec2309">
       <driver-ref>mysql</driver-ref>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/happy-clients_production</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:happy-clients_production</jdbc-url>
       <libraries />
     </data-source>
   </component>
