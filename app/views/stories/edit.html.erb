@@ -4,4 +4,6 @@
 
 <%= render 'form' %>
 
+<%= link_to "Delete", story_path(@story), method: :delete, data: {confirm: 'Are you sure you want to delete ' + @story.company_name + ' | ' + @story.vas_object + '?'}%>
+
 <%= render 'footer' %>

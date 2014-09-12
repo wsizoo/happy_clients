@@ -30,7 +30,7 @@ class StoriesController < ApplicationController
   def destroy
     @story = Story.find(params[:id])
     @story.destroy
-    redirect_to story_url
+    redirect_to @story
   end
 
   def random
