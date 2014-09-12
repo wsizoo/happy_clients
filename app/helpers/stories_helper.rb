@@ -10,4 +10,10 @@ module StoriesHelper
       link_to stories.case_link, stories.case_link
     end
   end
+
+  def format_website_link(story)
+    if story != nil
+      link_to story.website, story.website
+    end
+  end
 end

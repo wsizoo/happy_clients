@@ -4,6 +4,10 @@
   <header>
     <h2><%= @story.company_name %></h2>
   </header>
+  <h3>Quote</h3>
+  <p>
+    <%= @story.quote %>
+  </p>
   <h3>Description</h3>
   <p>
     <%= @story.description %>
@@ -19,6 +23,10 @@
   <h3>Case Link</h3>
   <p>
     <%= format_case_link(@story) %>
+  </p>
+  <h3>Website</h3>
+  <p>
+    <%= format_website_link(@story) %>
   </p>
 </article>
 

@@ -5,7 +5,9 @@ class CreateStories < ActiveRecord::Migration
       t.string :company_name
       t.string :vas_object
       t.string :case_link
+      t.string :website
       t.string :description
+      t.string :quote
 
       t.timestamps
     end

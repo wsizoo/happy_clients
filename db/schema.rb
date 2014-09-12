@@ -18,7 +18,9 @@ ActiveRecord::Schema.define(version: 20140910215625) do
     t.string   "company_name"
     t.string   "vas_object"
     t.string   "case_link"
+    t.string   "website"
     t.string   "description"
+    t.string   "quote"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
