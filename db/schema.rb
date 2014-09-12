@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140910215625) do
+ActiveRecord::Schema.define(version: 20140912180832) do
 
   create_table "stories", force: true do |t|
     t.string   "rep_name"
@@ -19,8 +19,8 @@ ActiveRecord::Schema.define(version: 20140910215625) do
     t.string   "vas_object"
     t.string   "case_link"
     t.string   "website"
-    t.string   "description"
-    t.string   "quote"
+    t.text     "description",  limit: 255
+    t.text     "quote",        limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
   end
