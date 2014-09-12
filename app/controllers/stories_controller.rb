@@ -40,7 +40,7 @@ class StoriesController < ApplicationController
 private
 
   def story_params
-    params[:story].permit(:company_name, :description, :rep_name, :vas_object, :case_link)
+    params[:story].permit(:company_name, :description, :rep_name, :vas_object, :case_link, :website, :quote)
   end
 end
 
