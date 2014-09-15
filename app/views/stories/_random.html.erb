@@ -1,34 +1,25 @@
 <article>
-  <header>
-    <h3><%= link_to @story.company_name, @story %></h3>
-  </header>
-  <table>
-    <tr>
-      <th>Quote:</th>
-      <td> <%= truncate(@story.quote, length: 40, separator: ' ') %></td>
-    </tr>
-    <tr>
-      <th>Description:</th>
-      <td> <%= truncate(@story.description, length: 40, separator: ' ') %> <%= link_to 'Show More',@story %></td>
-    </tr>
-    <tr>
-      <th>Rep Name:</th>
-      <td>
-        <%= @story.rep_name %>
-      </td>
-    </tr>
-    <tr>
-      <th>VAS Object:</th>
-      <td><%= @story.vas_object %></td>
-    </tr>
-    <tr>
-      <th>Case Link:</th>
-      <td><%= format_case_link(@story)%></td>
-    </tr>
+  <% if @story %>
+  <div class="story">
+    <% else %>
+    <div class="story">
+      <% end %>
+      <header>
+        <h3><%= link_to @story.company_name, @story %></h3>
+      </header>
 
-    <tr>
-      <th>Website:</th>
-      <td><%= format_website_link(@story) %></td>
-    </tr>
-  </table>
+      <p><strong>Quote:</strong> <%= @story.quote %></p>
+
+      <p><strong>Description:</strong> <%= truncate(@story.description, length: 40, separator: ' ') %> <%= link_to 'Show More', @story %></p>
+
+      <p><strong>Rep Name:</strong> <%= @story.rep_name %></p>
+
+      <p><strong>VAS Object:</strong> <%= @story.vas_object %></p>
+
+      <p><strong>Case Link:</strong> <%= format_case_link_home(@story) %></p>
+
+      <p><strong>Website:</strong> <%= format_website_link(@story) %></p>
+    </div>
 </article>
+
+

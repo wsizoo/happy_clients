@@ -7,9 +7,9 @@ module StoriesHelper
     end
   end
 
-  def format_case_link_home(stories)
-    if stories != nil
-      link_to stories.case_link, stories.case_link, :target => '_blank'
+  def format_case_link_home(story)
+    if story.case_link != nil
+      link_to story.case_link, story.case_link, :target => '_blank'
     else
       'I was too lazy to add the case link.'
     end
