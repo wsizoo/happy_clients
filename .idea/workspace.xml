@@ -63,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/stories/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23717059" vertical-offset="0" max-vertical-offset="722">
+            <state vertical-scroll-proportion="-6.3333335" vertical-offset="0" max-vertical-offset="722">
               <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding />
             </state>
@@ -83,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="narrow.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="narrow.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/narrow.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1805">
-              <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.87299466" vertical-offset="1000" max-vertical-offset="1786">
+              <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -178,8 +178,8 @@
         <option value="$PROJECT_DIR$/app/views/stories/_monthly_winner.html.erb" />
         <option value="$PROJECT_DIR$/app/views/stories/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/stories/_header.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/narrow.css" />
         <option value="$PROJECT_DIR$/app/views/stories/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/narrow.css" />
       </list>
     </option>
   </component>
@@ -1111,18 +1111,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/narrow.css">
+    <entry file="file://$PROJECT_DIR$/app/views/stories/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1805">
-          <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
+        <state vertical-scroll-proportion="-6.3333335" vertical-offset="0" max-vertical-offset="722">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/stories/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/narrow.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23717059" vertical-offset="0" max-vertical-offset="722">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.87299466" vertical-offset="1000" max-vertical-offset="1786">
+          <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
           <folding />
         </state>
       </provider>
