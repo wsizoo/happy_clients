@@ -79,5 +79,12 @@ body {
 }
 
 .story {
-    border-bottom: 1px #00AEDB solid;
+    padding: 1px 16px 11px 23px;
+}
+
+.story-grey {
+    background: #EFEFEF;
+    padding: 1px 16px 11px 23px;
+    border-radius: 5px;
+}
 }
