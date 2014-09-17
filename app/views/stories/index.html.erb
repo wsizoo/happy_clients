@@ -14,7 +14,10 @@
 
       <p><strong>Quote:</strong> <%= story.quote %></p>
 
-      <p><strong>Description:</strong> <%= truncate(story.description, length: 40, separator: ' ') %> <%= link_to 'Show More', story %></p>
+      <% if story.description.blank? %>
+      <% else %>
+          <p><strong>Description:</strong> <%= truncate(story.description, length: 40, separator: ' ') %> <%= link_to 'Show More', story %></p>
+      <% end %>
 
       <p><strong>Rep Name:</strong> <%= story.rep_name %></p>
 
