@@ -1,43 +1,52 @@
-<%= form_for(@story) do |f| %>
-    <p>
-      <%= f.label :company_name %><br/>
-      <%= f.text_field :company_name, autofocus: true %>
-    </p>
-    <p>
-      <%= f.label :quote %><br/>
-      <%= f.text_area :quote, cols: 40, rows: 7 %>
-    </p>
-    <p>
-      <%= f.label :description %><br/>
-      <%= f.text_area :description, cols: 40, rows: 7 %>
-    </p>
-    <p>
-      <%= f.label :rep_name %><br/>
-      <%= f.text_field :rep_name %>
-    </p>
-    <p>
-      <%= f.label :vas_object %><br/>
-      <%= f.text_field :vas_object %>
-    </p>
-    <p>
-      <%= f.label :case_link %><br/>
-      <% if @story.case_link == nil %>
-          <%= f.text_area :case_link, :value => "http://" %>
-      <% else %>
-          <%= f.text_area :case_link %>
-      <% end %>
-    </p>
-    <p>
-      <%= f.label :website %><br/>
-      <% if @story.case_link == nil %>
-          <%= f.text_area :website, :value => "http://" %>
-      <% else %>
-          <%= f.text_area :website %>
-      <% end %>
+<div class="form-group">
+  <%= form_for(@story) do |f| %>
+      <p>
+        <%= f.label :company_name %><br/>
+        <%= f.text_field :company_name, autofocus: true,:size => 50 %>
+      </p>
 
-    </p>
-    <p>
-      <%= f.submit %> |
-      <%= link_to 'Cancel', stories_path %>
-    </p>
-<% end %>
+      <p>
+        <%= f.label :quote %><br/>
+        <%= f.text_area :quote, cols: 100, rows: 7 %>
+      </p>
+
+      <p>
+        <%= f.label :description %><br/>
+        <%= f.text_area :description, cols: 100, rows: 7 %>
+      </p>
+
+      <p>
+        <%= f.label :rep_name %><br/>
+        <%= f.text_field :rep_name %>
+      </p>
+
+      <p>
+        <%= f.label :vas_object %><br/>
+        <%= f.text_field :vas_object %>
+      </p>
+
+      <p>
+        <%= f.label :case_link %><br/>
+        <% if @story.case_link == nil %>
+            <%= f.text_area :case_link, :value => "http://", cols: 50 %>
+        <% else %>
+            <%= f.text_area :case_link, cols: 50 %>
+        <% end %>
+      </p>
+
+      <p>
+        <%= f.label :website %><br/>
+        <% if @story.case_link == nil %>
+            <%= f.text_area :website, :value => "http://", cols: 50 %>
+        <% else %>
+            <%= f.text_area :website, cols: 50 %>
+        <% end %>
+
+      </p>
+
+      <p>
+        <%= f.submit %> |
+        <%= link_to 'Cancel', stories_path %>
+      </p>
+  <% end %>
+</div>
