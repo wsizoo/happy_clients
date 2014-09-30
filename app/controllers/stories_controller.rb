@@ -1,6 +1,6 @@
 class StoriesController < ApplicationController
   def index
-    @stories = Story.find( :all, :from_this_month, :order => "created_at DESC")
+    @stories = Story.find( :all, :order => "created_at DESC") # :from_this_month,
   end
 
   def show
