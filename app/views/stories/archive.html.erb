@@ -1,0 +1,48 @@
+<h1>Story Archive</h1>
+
+<%= render 'header' %>
+
+<!-- Split button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-primary"><%= Date::MONTHNAMES[Date.today.month] %></button>
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+  <% @stories.each do |monthname| %>
+      <li><a href="<%= monthname %>"><%= monthname %></a></li>
+      <li class="divider"></li>
+  <% end %>
+  </ul>
+
+</div>
+
+<% @stories.each do |monthname, stories| %>
+    <h1 class="month"><div id="<%= monthname %>"></div><%= monthname %></h1>
+
+      <% stories.each do |story| %>
+          <div class="story<%= cycle('-grey', '') %>">
+            <header>
+              <h3><%= link_to story.company_name, story %></h3>
+            </header>
+
+            <p><strong>Quote:</strong> <%= story.quote %></p>
+
+            <% if story.description.blank? %>
+            <% else %>
+                <p><strong>Description:</strong> <%= truncate(story.description, length: 40, separator: ' ') %> <%= link_to 'Show More', story %></p>
+            <% end %>
+
+            <p><strong>Rep Name:</strong> <%= story.rep_name %></p>
+
+            <p><strong>VAS Object:</strong> <%= story.vas_object %></p>
+
+            <p><strong>Case Link:</strong> <%= format_case_link_home(story) %></p>
+
+            <p><strong>Website:</strong> <%= format_website_link_home(story) %></p>
+          </div>
+      <% end %>
+<% end %>
+
+

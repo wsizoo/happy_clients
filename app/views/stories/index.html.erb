@@ -5,33 +5,12 @@
 
 <%= render 'header' %>
 
-<%#= render 'monthly_winner' %>
+<%= render 'monthly_winner' %>
+
 
 <h2><%= pluralize(@stories.size, 'Happy Client') %> in <%= Date::MONTHNAMES[Date.today.month] %></h2>
 
-<% @stories.each do |story| %>
-    <div class="story<%= cycle('-grey', '') %>">
-      <header>
-        <h3><%= link_to story.company_name, story %></h3>
-      </header>
-
-      <p><strong>Quote:</strong> <%= story.quote %></p>
-
-      <% if story.description.blank? %>
-      <% else %>
-          <p><strong>Description:</strong> <%= truncate(story.description, length: 40, separator: ' ') %> <%= link_to 'Show More', story %></p>
-      <% end %>
-
-      <p><strong>Rep Name:</strong> <%= story.rep_name %></p>
-
-      <p><strong>VAS Object:</strong> <%= story.vas_object %></p>
-
-      <p><strong>Case Link:</strong> <%= format_case_link_home(story) %></p>
-
-      <p><strong>Website:</strong> <%= format_website_link_home(story) %></p>
-    </div>
-
-<% end %>
+<%= render 'story' %>
 
 <br>
 <%= render 'footer' %>

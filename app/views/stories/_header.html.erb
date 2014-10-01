@@ -6,6 +6,7 @@
 
         <%= link_to raw("<span class='glyphicon glyphicon' style='top:-1px'></span> All Stories"), stories_path %></li>
       <li <% if request.path == new_story_path %>class="active "<% end %>><%= link_to raw("<span class='glyphicon glyphicon-plus' style='top:-1px'></span> Add New Story"), new_story_path %></li>
+      <li <% if request.path == archive_path %>class="active "<% end %>><%= link_to raw("Archive"), archive_path %></li>
       <!--<li><%#= link_to "Random Story", "/random" %></li>-->
     </ul>
   </div>

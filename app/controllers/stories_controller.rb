@@ -1,4 +1,6 @@
 class StoriesController < ApplicationController
+  caches_action :random
+
   def index
     @stories = Story.find( :all, :from_this_month, :order => "created_at DESC")
   end
@@ -36,7 +38,11 @@ class StoriesController < ApplicationController
   def random
     @story = Story.order("RANDOM()").first
   end
-  
+
+  def archive
+  @stories = Story.find(:all).group_by { |story| story.created_at.strftime("%B") }
+  end
+
 private
 
   def story_params

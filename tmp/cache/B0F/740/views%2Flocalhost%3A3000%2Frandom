@@ -1,0 +1,74 @@
+o: ActiveSupport::Cache::Entry:@valueI"€	<!DOCTYPE html>
+<html>
+<head>
+  <title>HappyClients</title>
+  <link data-turbolinks-track="true" href="/assets/application.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/narrow.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/bootstrap.css?body=1" media="all" rel="stylesheet" />
+  <script data-turbolinks-track="true" src="/assets/jquery.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/jquery_ujs.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/turbolinks.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap.min.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/application.js?body=1"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="MiGbj8uurHhuUr4UjD/rvvBORUavda3q6viOoxaE0QA=" name="csrf-token" />
+  <link rel="stylesheet" href="/assets/stylesheets/narrow.css">
+
+</head>
+<body>
+<div class="container">
+  <h1>Random Happy Story</h1>
+
+<div class="container">
+  <div class="header">
+    <ul class="nav nav-pills pull-right">
+
+      <li class="active">
+
+        <a href="/stories"><span class='glyphicon glyphicon' style='top:-1px'></span> All Stories</a></li>
+      <li ><a href="/stories/new"><span class='glyphicon glyphicon-plus' style='top:-1px'></span> Add New Story</a></li>
+      <!--<li></li>-->
+    </ul>
+  </div>
+</div>
+
+
+
+<article>
+  <div class="story">
+      <header>
+        <h3><a href="/stories/9">ewfwrefds</a></h3>
+      </header>
+
+      <p><strong>Quote:</strong> Lauren, Grant was very pleased with how the new website looked. Ill be back in the office tomorrow, with everyone elses feed back. And then we can start looking over the other 3 properties. Thank you, very much Lauren for your time and hard work.</p>
+
+      <p><strong>Description:</strong> Lauren, Grant was very pleased with... <a href="/stories/9">Show More</a></p>
+
+      <p><strong>Rep Name:</strong> </p>
+
+      <p><strong>VAS Object:</strong> </p>
+
+      <p><strong>Case Link:</strong> I was too lazy to add the case link.</p>
+
+      <p><strong>Website:</strong> I was too lazy to add the website url.</p>
+    </div>
+</article>
+
+
+
+
+<br>
+
+<a href="/random">Refresh Random Story</a>
+
+<br><br>
+
+<div class="footer">
+  <p>Copyright &copy; 2014<br>
+    AppFolio | <strong>Will Sizoo</strong></p>
+</div>
+
+</div>
+</body>
+</html>
+:ET:@created_atf1412125062.039598:@expires_in0
