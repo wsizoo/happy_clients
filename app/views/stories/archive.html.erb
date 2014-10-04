@@ -11,7 +11,7 @@
   </button>
   <ul class="dropdown-menu" role="menu">
   <% @stories.each do |monthname| %>
-      <li><a href="<%= monthname %>"><%= monthname %></a></li>
+      <li><a href="#<%= monthname.first %>"><%= monthname.first %></a></li>
       <li class="divider"></li>
   <% end %>
   </ul>

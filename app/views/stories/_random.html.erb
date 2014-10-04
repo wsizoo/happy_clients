@@ -1,5 +1,5 @@
 <article>
-  <%  %>
+  <%# cache(:story) do %>
   <% if @story %>
   <div class="story">
     <% else %>
@@ -21,6 +21,7 @@
 
       <p><strong>Website:</strong> <%= format_website_link_home(@story) %></p>
     </div>
+  <%# end %>
 </article>
 
 
