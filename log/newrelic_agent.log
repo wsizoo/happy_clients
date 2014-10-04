@@ -234,3 +234,31 @@
 [10/03/14 17:29:41 -0700 Williams-MacBook-Pro.local (80337)] INFO : Finished instrumentation
 [10/03/14 17:29:41 -0700 Williams-MacBook-Pro.local (80337)] INFO : Doing deferred dependency-detection before Rack startup
 [10/03/14 17:29:41 -0700 Williams-MacBook-Pro.local (80337)] INFO : Reporting to: https://rpm.newrelic.com/accounts/773195/applications/4362532
+[10/03/14 18:44:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[10/03/14 18:44:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[10/03/14 18:44:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[10/03/14 18:44:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[10/03/14 18:45:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[10/03/14 18:45:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[10/03/14 18:45:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[10/03/14 18:45:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[10/03/14 18:46:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[10/03/14 18:46:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[10/03/14 18:46:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[10/03/14 18:46:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[10/03/14 18:47:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[10/03/14 18:47:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[10/03/14 18:47:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[10/03/14 18:47:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[10/03/14 18:48:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[10/03/14 18:48:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[10/03/14 18:48:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[10/03/14 18:48:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[10/03/14 18:49:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[10/03/14 18:49:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[10/03/14 18:49:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[10/03/14 18:49:37 -0700 Williams-MacBook-Pro.local (80337)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[10/03/14 19:11:46 -0700 Williams-MacBook-Pro.local (80337)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[10/03/14 19:11:46 -0700 Williams-MacBook-Pro.local (80337)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[10/03/14 19:11:46 -0700 Williams-MacBook-Pro.local (80337)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[10/03/14 19:11:46 -0700 Williams-MacBook-Pro.local (80337)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
