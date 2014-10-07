@@ -1,4 +1,5 @@
-o: ActiveSupport::Cache::Entry:@valueI"‚<!DOCTYPE html>
+o: ActiveSupport::Cache::Entry:@valueI"y
+<!DOCTYPE html>
 <html>
 <head>
   <title>HappyClients</title>
@@ -17,7 +18,7 @@
 </head>
 <body>
 <div class="container">
-  <h1>October Winner</h1>
+  <h1>September Winner</h1>
 
 <div class="container">
   <div class="header">
@@ -35,18 +36,22 @@
 <article>
   <div class="story">
       <header>
-        <h3><a href="/stories/7">dfsfsd</a></h3>
+        <h3><a href="/stories/5">test</a></h3>
       </header>
 
-      <p><strong>Quote:</strong> fdsfsd</p>
+      <p><strong>Quote:</strong> Hey Reed,
 
-      <p><strong>Description:</strong> fsdfsdf <a href="/stories/7">Show More</a></p>
+I know we are having a conference call in less than a couple hours, but I wanted to tell you that we LOVE the way the website looks currently from your link.  I have a few grammatical corrections, but other then that I love it.  I noticed it has changed some just since I looked at it the other day.  I REALLY like the new circle buttons at the bottom of the page that say Tenants, Owners, Vacancies, and so forth.  It looks so slick!!!</p>
+
+      <p><strong>Description:</strong> Hey Reed,
+
+I know we are having a... <a href="/stories/5">Show More</a></p>
 
       <p><strong>Rep Name:</strong> </p>
 
       <p><strong>VAS Object:</strong> </p>
 
-      <p><strong>Case Link:</strong> I was too lazy to add the case link.</p>
+      <p><strong>Case Link:</strong> <a href="http://google.com" target="_blank">http://google.com</a></p>
 
       <p><strong>Website:</strong> I was too lazy to add the website url.</p>
     </div>
@@ -69,4 +74,4 @@
 </div>
 </body>
 </html>
-:ET:@created_atf1412715079.540268:@expires_in0
+:ET:@created_atf1412720353.300409:@expires_in0

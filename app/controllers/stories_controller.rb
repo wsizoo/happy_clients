@@ -3,7 +3,7 @@ class StoriesController < ApplicationController
   caches_action :random
 
   def index
-    @stories = Story.find( :all, :from_this_month, :order => "created_at DESC")
+    @stories = Story.find( :all, :conditions => ["extract(year from date) = '?' AND extract(month from date) = ?", Date.today.year, Date.today.strftime('%m')], :order => "created_at DESC")
   end
 
   def show
@@ -37,7 +37,7 @@ class StoriesController < ApplicationController
   end
 
   def random
-    @story = Story.order("RANDOM()").find(:all, :from_this_month).first
+    @story = Story.order("RANDOM()").find(:all, :conditions => ["extract(year from date) = '?' AND extract(month from date) = ?", Date.today.year, Date.today.strftime('%m')]).first
   end
 
   def archive
