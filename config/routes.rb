@@ -3,4 +3,5 @@ HappyClients::Application.routes.draw do
   resources :stories
   get "random" => "stories#random"
   get "archive" => "stories#archive"
+  get "test" => "stories#test"
 end

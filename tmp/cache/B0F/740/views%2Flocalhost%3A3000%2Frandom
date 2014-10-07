@@ -1,4 +1,4 @@
-o: ActiveSupport::Cache::Entry:@valueI"€	<!DOCTYPE html>
+o: ActiveSupport::Cache::Entry:@valueI"‚<!DOCTYPE html>
 <html>
 <head>
   <title>HappyClients</title>
@@ -17,17 +17,15 @@
 </head>
 <body>
 <div class="container">
-  <h1>Random Happy Story</h1>
+  <h1>October Winner</h1>
 
 <div class="container">
   <div class="header">
     <ul class="nav nav-pills pull-right">
 
-      <li class="active">
-
-        <a href="/stories"><span class='glyphicon glyphicon' style='top:-1px'></span> All Stories</a></li>
-      <li ><a href="/stories/new"><span class='glyphicon glyphicon-plus' style='top:-1px'></span> Add New Story</a></li>
-      <!--<li></li>-->
+      <li class=""><a href="/stories"><span class='glyphicon glyphicon' style='top:-1px'></span> All Stories</a></li>
+      <li class=""><a href="/archive">Archive</a></li>
+      <li class=""><a href="/stories/new"><span class='glyphicon glyphicon-plus' style='top:-1px'></span> Add New Story</a></li>
     </ul>
   </div>
 </div>
@@ -37,12 +35,12 @@
 <article>
   <div class="story">
       <header>
-        <h3><a href="/stories/9">ewfwrefds</a></h3>
+        <h3><a href="/stories/7">dfsfsd</a></h3>
       </header>
 
-      <p><strong>Quote:</strong> Lauren, Grant was very pleased with how the new website looked. Ill be back in the office tomorrow, with everyone elses feed back. And then we can start looking over the other 3 properties. Thank you, very much Lauren for your time and hard work.</p>
+      <p><strong>Quote:</strong> fdsfsd</p>
 
-      <p><strong>Description:</strong> Lauren, Grant was very pleased with... <a href="/stories/9">Show More</a></p>
+      <p><strong>Description:</strong> fsdfsdf <a href="/stories/7">Show More</a></p>
 
       <p><strong>Rep Name:</strong> </p>
 
@@ -71,4 +69,4 @@
 </div>
 </body>
 </html>
-:ET:@created_atf1412125062.039598:@expires_in0
+:ET:@created_atf1412715079.540268:@expires_in0

@@ -262,3 +262,40 @@
 [10/03/14 19:11:46 -0700 Williams-MacBook-Pro.local (80337)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
 [10/03/14 19:11:46 -0700 Williams-MacBook-Pro.local (80337)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
 [10/03/14 19:11:46 -0700 Williams-MacBook-Pro.local (80337)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[10/07/14 13:30:04 -0700 Williams-MacBook-Pro.local (55985)] INFO : Starting the New Relic agent in "development" environment.
+[10/07/14 13:30:04 -0700 Williams-MacBook-Pro.local (55985)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[10/07/14 13:30:04 -0700 Williams-MacBook-Pro.local (55985)] INFO : Reading configuration from config/newrelic.yml (/Users/williamsizoo/Git_Repos/happy_clients)
+[10/07/14 13:30:04 -0700 Williams-MacBook-Pro.local (55985)] INFO : New Relic Agent Developer Mode enabled.
+[10/07/14 13:30:04 -0700 Williams-MacBook-Pro.local (55985)] INFO : Environment: development
+[10/07/14 13:30:04 -0700 Williams-MacBook-Pro.local (55985)] INFO : Dispatcher: webrick
+[10/07/14 13:30:04 -0700 Williams-MacBook-Pro.local (55985)] INFO : Application: My Application (Development)
+[10/07/14 13:30:05 -0700 Williams-MacBook-Pro.local (55985)] INFO : Installing ActiveRecord 4 instrumentation
+[10/07/14 13:30:05 -0700 Williams-MacBook-Pro.local (55985)] INFO : Installing Net instrumentation
+[10/07/14 13:30:05 -0700 Williams-MacBook-Pro.local (55985)] INFO : Installing deferred Rack instrumentation
+[10/07/14 13:30:05 -0700 Williams-MacBook-Pro.local (55985)] INFO : Installing Rack::Builder middleware instrumentation
+[10/07/14 13:30:05 -0700 Williams-MacBook-Pro.local (55985)] INFO : Installing Rails 3+ middleware instrumentation
+[10/07/14 13:30:05 -0700 Williams-MacBook-Pro.local (55985)] INFO : Installing Rails 4 Controller instrumentation
+[10/07/14 13:30:05 -0700 Williams-MacBook-Pro.local (55985)] INFO : Installing Rails 4 view instrumentation
+[10/07/14 13:30:05 -0700 Williams-MacBook-Pro.local (55985)] INFO : Installing Rails 4 Error instrumentation
+[10/07/14 13:30:05 -0700 Williams-MacBook-Pro.local (55985)] INFO : Finished instrumentation
+[10/07/14 13:30:05 -0700 Williams-MacBook-Pro.local (55985)] INFO : Doing deferred dependency-detection before Rack startup
+[10/07/14 13:30:05 -0700 Williams-MacBook-Pro.local (55985)] INFO : Reporting to: https://rpm.newrelic.com/accounts/773195/applications/4362532
+[10/07/14 13:42:16 -0700 Williams-MacBook-Pro.local (55985)] INFO : Starting Agent shutdown
+[10/07/14 13:42:20 -0700 Williams-MacBook-Pro.local (56059)] INFO : Starting the New Relic agent in "development" environment.
+[10/07/14 13:42:20 -0700 Williams-MacBook-Pro.local (56059)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[10/07/14 13:42:20 -0700 Williams-MacBook-Pro.local (56059)] INFO : Reading configuration from config/newrelic.yml (/Users/williamsizoo/Git_Repos/happy_clients)
+[10/07/14 13:42:20 -0700 Williams-MacBook-Pro.local (56059)] INFO : New Relic Agent Developer Mode enabled.
+[10/07/14 13:42:20 -0700 Williams-MacBook-Pro.local (56059)] INFO : Environment: development
+[10/07/14 13:42:20 -0700 Williams-MacBook-Pro.local (56059)] INFO : Dispatcher: webrick
+[10/07/14 13:42:20 -0700 Williams-MacBook-Pro.local (56059)] INFO : Application: My Application (Development)
+[10/07/14 13:42:21 -0700 Williams-MacBook-Pro.local (56059)] INFO : Installing ActiveRecord 4 instrumentation
+[10/07/14 13:42:21 -0700 Williams-MacBook-Pro.local (56059)] INFO : Installing Net instrumentation
+[10/07/14 13:42:21 -0700 Williams-MacBook-Pro.local (56059)] INFO : Installing deferred Rack instrumentation
+[10/07/14 13:42:21 -0700 Williams-MacBook-Pro.local (56059)] INFO : Installing Rack::Builder middleware instrumentation
+[10/07/14 13:42:21 -0700 Williams-MacBook-Pro.local (56059)] INFO : Installing Rails 3+ middleware instrumentation
+[10/07/14 13:42:21 -0700 Williams-MacBook-Pro.local (56059)] INFO : Installing Rails 4 Controller instrumentation
+[10/07/14 13:42:21 -0700 Williams-MacBook-Pro.local (56059)] INFO : Installing Rails 4 view instrumentation
+[10/07/14 13:42:21 -0700 Williams-MacBook-Pro.local (56059)] INFO : Installing Rails 4 Error instrumentation
+[10/07/14 13:42:21 -0700 Williams-MacBook-Pro.local (56059)] INFO : Finished instrumentation
+[10/07/14 13:42:21 -0700 Williams-MacBook-Pro.local (56059)] INFO : Doing deferred dependency-detection before Rack startup
+[10/07/14 13:42:22 -0700 Williams-MacBook-Pro.local (56059)] INFO : Reporting to: https://rpm.newrelic.com/accounts/773195/applications/4362532
